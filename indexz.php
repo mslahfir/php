@@ -24,6 +24,11 @@
                 echo '<div class="alert alert-danger alert-dismissable animate__animated animate__bounceIn" id="flash-msg">
                 <h4>Enter Password</h4>
                 </div>';
+            }else if($department=="Select Department")
+            {
+                echo '<div class="alert alert-danger alert-dismissable animate__animated animate__bounceIn" id="flash-msg">
+                <h4>Select Department</h4>
+                </div>';
             }else{
                 $id = uniqid();
     
